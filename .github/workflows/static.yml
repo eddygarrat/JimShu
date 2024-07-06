@@ -1,3 +1,33 @@
 theme: jekyll-theme-minimal
 title: Octocat's homepage
 description: Bookmark this to keep an eye on my project updates!# Simple workflow for deploying static content to GitHub Pages
+# _config.yml
+title: My GitHub Page
+description: A simple GitHub Pages site using Jekyll
+baseurl: "/my-github-page" # the subpath of your site, e.g. /blog
+url: "https://your-username.github.io" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+theme: minima
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+# Include options
+include:
+  - _pages
+
+# Permalinks
+permalink: /:year/:month/:day/:title:output_ext
+
+# Other configurations
+paginate: 5
+paginate_path: "/page/:num/"
