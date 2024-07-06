@@ -1,0 +1,40 @@
+baseURL: ""
+languageCode: en-us
+title: Jishnu
+paginate: 5
+theme: PaperMod
+
+
+params:
+  #homeInfoParams:
+  #  Title: "Hello there !"
+  #  Content: This is my new website
+  
+  ShowBreadCrumbs: false
+
+  assets:
+    # disableHLJS: true # to disable highlight.js
+    # disableFingerprinting: true
+    favicon: /teacup_nobg.png
+    #favicon16x16: /teacup_nobg.png
+    #favicon32x32: /teacup_nobg.png
+
+  # profile-mode
+  profileMode:
+    enabled: true # needs to be explicitly set
+    title: Jimshu
+    subtitle: "Hello there. Welcome to my 
+    extrainfo: "."
+    extraextrainfo: "I m just a batman
+    imageUrl: me.jpeg
+    imageWidth: 200
+    imageHeight: 200
+    imageTitle: its a me !
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/eddygarrat"
+
+
+
+
